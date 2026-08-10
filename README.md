@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 2.1″ TFT 480×480（ST77922 · MIPI）</h1>
 
-<p align="center"><b>圆形 TFT / IPS 模组 · MIPI · ST77922 · 电容触摸</b></p>
+<p align="center"><b>TFT 模组 · MIPI · ST77922 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,88 +13,58 @@
   <img alt="Driver: ST77922" src="https://img.shields.io/badge/Driver-ST77922-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 2.1 寸 480×480 TFT MIPI 模组（ST77922）宣传图" src="./images/product.png" width="640" /></p>
-
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [YDP210LT001-V1](#ydp210lt001-v1)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色显示模组，显示驱动为 **ST77922**，触摸驱动为 **ST7123**。适合穿戴表盘、圆形仪表与小型圆形 HMI 等场景。
+本仓库收录 **2.1 寸 480×480 TFT（MIPI · ST77922）** 显示模组资料。
+
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`2.1-tft-480x480-mipi-st77922`
 
-当前模组版本：**YDP210LT001-V1**。电气与外形细节以 [`docs/YDP210LT001-V1.pdf`](./docs/YDP210LT001-V1.pdf) 为准。
+---
 
-## 规格参数
+## 版本一览
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 2.1 英寸 |
-| 类型 | TFT / IPS（彩色，圆形） |
-| 分辨率 | 480×480 |
-| 接口 | MIPI |
-| 驱动 IC | ST77922 |
-| 触摸驱动 | ST7123 |
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| YDP210LT001-V1 | <img alt="YDP210LT001-V1" src="./images/YDP210LT001-V1.png" width="120" /> | [查看详情](#ydp210lt001-v1) |
 
-> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+---
 
-## 示例工程
+## YDP210LT001-V1
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-P4 · ST77922 MIPI bring-up（点屏） | [`examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/`](./examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/) |
-| ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL8 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/) |
-| ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/) |
-| ESP32-P4 · LVGL + TE 防撕裂 | [`examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/`](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/) |
+<p align="center"><img alt="YDP210LT001-V1" src="./images/YDP210LT001-V1.png" width="320" /></p>
 
-## 仓库结构
+**说明：** 模组。
 
-```text
-2.1-tft-480x480-mipi-st77922/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、驱动手册、初始化、转接板等
-└── examples/        # 示例工程
-```
+---
 
-## 相关资料
+## 如何切换分支
 
-### 本产品资料
+完整产品资料在各**版本分支**中；`main` 仅作导航。
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（YDP210LT001-V1） | [`docs/YDP210LT001-V1.pdf`](./docs/YDP210LT001-V1.pdf) |
-| 驱动 IC 数据手册（ST77922） | [`docs/ST77922_SPEC_V0.1.pdf`](./docs/ST77922_SPEC_V0.1.pdf) |
-| 初始化序列（Gamma 2.2） | [`docs/ST77922_IVO213_480RGBx480_Smart8120_20250327_Gamma2.2.txt`](./docs/ST77922_IVO213_480RGBx480_Smart8120_20250327_Gamma2.2.txt) |
-| 2.1 寸屏幕转接板（V1.0） | [`docs/2.1寸屏幕转接板V1.0.pdf`](./docs/2.1%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BFV1.0.pdf) |
-| 2.1 寸屏幕转接板原理图 | [`docs/2.1寸屏幕转接板原理图.png`](./docs/2.1%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BF%E5%8E%9F%E7%90%86%E5%9B%BE.png) |
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
 
-### 示例工程
-
-- [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/)
-- [ESP32-P4 ST77922 MIPI + LVGL8](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/)
-- [ESP32-P4 ST77922 MIPI + LVGL9](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/)
-- [ESP32-P4 LVGL + TE](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/)
+---
 
 ## 购买链接
 
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**
@@ -104,6 +74,8 @@ OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色�
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 
