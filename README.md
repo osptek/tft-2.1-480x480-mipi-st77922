@@ -46,8 +46,7 @@
 
 <p align="center"><img alt="YDP210LT001-V1" src="./images/YDP210LT001-V1.png" width="320" /></p>
 
-**说明：** 模组。
-
+**说明：** 带触摸（ST7123）。
 ---
 
 ## 如何切换分支

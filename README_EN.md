@@ -46,8 +46,7 @@ Repo id: `2.1-tft-480x480-mipi-st77922`
 
 <p align="center"><img alt="YDP210LT001-V1" src="./images/YDP210LT001-V1.png" width="320" /></p>
 
-**Notes:** Module.
-
+**Notes:** With touch (ST7123).
 ---
 
 ## How to Switch Branches
