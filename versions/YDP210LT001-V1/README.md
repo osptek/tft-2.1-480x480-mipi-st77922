@@ -79,6 +79,7 @@ OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色�
 | 资料 | 链接 |
 | ---- | ---- |
 | 产品规格书（YDP210LT001-V1） | [`docs/YDP210LT001-V1.pdf`](./docs/YDP210LT001-V1.pdf) |
+| 3D 图纸（YDP210LT001-V1） | [`docs/YDP210LT001-V1.dwg`](./docs/YDP210LT001-V1.dwg) |
 | 驱动 IC 数据手册（ST77922） | [`docs/ST77922_SPEC_V0.1.pdf`](./docs/ST77922_SPEC_V0.1.pdf) |
 | 初始化序列（Gamma 2.2） | [`docs/ST77922_IVO213_480RGBx480_Smart8120_20250327_Gamma2.2.txt`](./docs/ST77922_IVO213_480RGBx480_Smart8120_20250327_Gamma2.2.txt) |
 | 2.1 寸屏幕转接板（V1.0） | [`docs/2.1寸屏幕转接板V1.0.pdf`](./docs/2.1%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BFV1.0.pdf) |
