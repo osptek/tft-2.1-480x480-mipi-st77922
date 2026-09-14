@@ -31,7 +31,7 @@
 
 OSPTEK **2.1″ 480×480 TFT (IPS)** is a round **MIPI** color display module driven by **ST77922**, with capacitive touch (**ST7123**). Suited to wearables, round gauges, and compact circular HMI.
 
-Spec ID (repository name): `2.1-tft-480x480-mipi-st77922`
+Spec ID (repository name): `tft-2.1-480x480-mipi-st77922`
 
 Current module version: **YDP210LT001-V1**. Electrical and mechanical details follow [`docs/YDP210LT001-V1.pdf`](./docs/YDP210LT001-V1.pdf).
 
@@ -52,7 +52,7 @@ Current module version: **YDP210LT001-V1**. Electrical and mechanical details fo
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-P4 · ST77922 MIPI bring-up | [`examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/`](./examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/) |
+| ESP32-P4 · ST77922 MIPI bring-up | [`examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/`](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL8 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/) |
 | ESP32-P4 · LVGL + TE | [`examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/`](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/) |
@@ -62,7 +62,7 @@ Current module version: **YDP210LT001-V1**. Electrical and mechanical details fo
 ## Repository layout
 
 ```text
-2.1-tft-480x480-mipi-st77922/                                # repo root (nav: ../../README_EN.md)
+tft-2.1-480x480-mipi-st77922/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP210LT001-V1/                                # full materials for this part number
         ├── README.md
@@ -87,7 +87,7 @@ Current module version: **YDP210LT001-V1**. Electrical and mechanical details fo
 
 ### Samples
 
-- [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/)
+- [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/)
 - [ESP32-P4 ST77922 MIPI + LVGL8](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/)
 - [ESP32-P4 ST77922 MIPI + LVGL9](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/)
 - [ESP32-P4 LVGL + TE](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/)

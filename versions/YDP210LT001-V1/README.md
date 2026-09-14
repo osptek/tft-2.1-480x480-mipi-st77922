@@ -31,7 +31,7 @@
 
 OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色显示模组，显示驱动为 **ST77922**，触摸驱动为 **ST7123**。适合穿戴表盘、圆形仪表与小型圆形 HMI 等场景。
 
-规格标识（仓库名）：`2.1-tft-480x480-mipi-st77922`
+规格标识（仓库名）：`tft-2.1-480x480-mipi-st77922`
 
 当前模组版本：**YDP210LT001-V1**。电气与外形细节以 [`docs/YDP210LT001-V1.pdf`](./docs/YDP210LT001-V1.pdf) 为准。
 
@@ -52,7 +52,7 @@ OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-P4 · ST77922 MIPI bring-up（点屏） | [`examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/`](./examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/) |
+| ESP32-P4 · ST77922 MIPI bring-up（点屏） | [`examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/`](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL8 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/) |
 | ESP32-P4 · LVGL + TE 防撕裂 | [`examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/`](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/) |
@@ -62,7 +62,7 @@ OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色�
 ## 仓库结构
 
 ```text
-2.1-tft-480x480-mipi-st77922/                                # 仓库根（导航见 ../../README.md）
+tft-2.1-480x480-mipi-st77922/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── YDP210LT001-V1/                                # 本料号完整资料
         ├── README.md
@@ -87,7 +87,7 @@ OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色�
 
 ### 示例工程
 
-- [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-2.1-tft-480x480-mipi-st77922-bringup/)
+- [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/)
 - [ESP32-P4 ST77922 MIPI + LVGL8](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/)
 - [ESP32-P4 ST77922 MIPI + LVGL9](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/)
 - [ESP32-P4 LVGL + TE](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/)
