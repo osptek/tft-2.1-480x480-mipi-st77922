@@ -1,0 +1,14 @@
+id: tft-2.1-480x480-mipi-st77922
+category: displays
+
+size: "2.1"
+panel: tft
+resolution: 480x480
+interface: [mipi]
+shape: round
+
+versions:
+  - id: YDP210LT001-V1
+    driver: ST77922
+    touch: ST7123
+    note: none
