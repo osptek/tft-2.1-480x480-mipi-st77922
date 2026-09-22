@@ -55,7 +55,9 @@ OSPTEK **2.1 寸 480×480 TFT（IPS）** 是一款 **MIPI** 接口圆形彩色�
 | ESP32-P4 · ST77922 MIPI bring-up（点屏） | [`examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/`](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL8 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/) |
+| ESP32-P4 v3.2 · ESP-IDF 6.1 · ST77922 MIPI + LVGL 9 | [`examples/esp32p4-idf6_st77922-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf6_st77922-mipi_esp-lvgl-port_lvgl9/) |
 | ESP32-P4 · LVGL + TE 防撕裂 | [`examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/`](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/) |
+| ESP32-P4 v3.2 · ESP-IDF 6.1 · LVGL + TE 防撕裂 | [`examples/with-te/esp32p4-idf6_st77922-mipi_lvgl_common_demo/`](./examples/with-te/esp32p4-idf6_st77922-mipi_lvgl_common_demo/) |
 | Raspberry Pi 5 · ST77922 480×480 面板驱动 / DT overlay（仅显示） | [`examples/rpi5-panel-st77922-480x480/`](./examples/rpi5-panel-st77922-480x480/) |
 | Raspberry Pi 5 · ST77922 显示 + ST7123 触摸 / DT overlay | [`examples/rpi5-panel-st77922-st7123-480x480/`](./examples/rpi5-panel-st77922-st7123-480x480/) |
 
@@ -90,7 +92,9 @@ tft-2.1-480x480-mipi-st77922/                                # 仓库根（导�
 - [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/)
 - [ESP32-P4 ST77922 MIPI + LVGL8](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/)
 - [ESP32-P4 ST77922 MIPI + LVGL9](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/)
+- [ESP32-P4 v3.2 · ESP-IDF 6.1 · ST77922 MIPI + LVGL 9](./examples/esp32p4-idf6_st77922-mipi_esp-lvgl-port_lvgl9/)
 - [ESP32-P4 LVGL + TE](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/)
+- [ESP32-P4 v3.2 · ESP-IDF 6.1 · LVGL + TE](./examples/with-te/esp32p4-idf6_st77922-mipi_lvgl_common_demo/)
 - [Raspberry Pi 5 ST77922 面板（仅显示）](./examples/rpi5-panel-st77922-480x480/)
 - [Raspberry Pi 5 ST77922 显示 + ST7123 触摸](./examples/rpi5-panel-st77922-st7123-480x480/)
 

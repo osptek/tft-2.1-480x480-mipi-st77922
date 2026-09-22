@@ -55,7 +55,9 @@ Current module version: **YDP210LT001-V1**. Electrical and mechanical details fo
 | ESP32-P4 · ST77922 MIPI bring-up | [`examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/`](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL8 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/) |
 | ESP32-P4 · ST77922 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/) |
+| ESP32-P4 v3.2 · ESP-IDF 6.1 · ST77922 MIPI + LVGL 9 | [`examples/esp32p4-idf6_st77922-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf6_st77922-mipi_esp-lvgl-port_lvgl9/) |
 | ESP32-P4 · LVGL + TE | [`examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/`](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/) |
+| ESP32-P4 v3.2 · ESP-IDF 6.1 · LVGL + TE | [`examples/with-te/esp32p4-idf6_st77922-mipi_lvgl_common_demo/`](./examples/with-te/esp32p4-idf6_st77922-mipi_lvgl_common_demo/) |
 | Raspberry Pi 5 · ST77922 480×480 panel / DT overlay (display only) | [`examples/rpi5-panel-st77922-480x480/`](./examples/rpi5-panel-st77922-480x480/) |
 | Raspberry Pi 5 · ST77922 display + ST7123 touch / DT overlay | [`examples/rpi5-panel-st77922-st7123-480x480/`](./examples/rpi5-panel-st77922-st7123-480x480/) |
 
@@ -90,7 +92,9 @@ tft-2.1-480x480-mipi-st77922/                                # repo root (nav: .
 - [ESP32-P4 ST77922 MIPI bring-up](./examples/esp32p4-tft-2.1-480x480-mipi-st77922-bringup/)
 - [ESP32-P4 ST77922 MIPI + LVGL8](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V8/)
 - [ESP32-P4 ST77922 MIPI + LVGL9](./examples/P4-IDF_ST77922-MIPI_ESP-LVGL-PORT_V9/)
+- [ESP32-P4 v3.2 · ESP-IDF 6.1 · ST77922 MIPI + LVGL 9](./examples/esp32p4-idf6_st77922-mipi_esp-lvgl-port_lvgl9/)
 - [ESP32-P4 LVGL + TE](./examples/with-te/p4-idf_st77922-mipi_lvgl_common_demo/)
+- [ESP32-P4 v3.2 · ESP-IDF 6.1 · LVGL + TE](./examples/with-te/esp32p4-idf6_st77922-mipi_lvgl_common_demo/)
 - [Raspberry Pi 5 ST77922 panel (display only)](./examples/rpi5-panel-st77922-480x480/)
 - [Raspberry Pi 5 ST77922 display + ST7123 touch](./examples/rpi5-panel-st77922-st7123-480x480/)
 
